@@ -19,7 +19,7 @@ flag=-1
 proxy_max=""
 port_max=""
 speed_max=-1
-occupied=200
+occupied=-1
 
 for link in soup.find_all('tr',class_="text-success")[1:]:
 
