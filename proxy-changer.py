@@ -70,6 +70,6 @@ if flag==1:
 	print(occupied)
 
 else:
-	print("No working proxy!!")
+	print("No working proxy right now, please open the script again!!")
 
 Process=Popen(['./proxy-changer.sh',str(proxy_max),str(port_max)],shell=True,stdin=PIPE,stderr=PIPE)
